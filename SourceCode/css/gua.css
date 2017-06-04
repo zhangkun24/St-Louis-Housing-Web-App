@@ -1,0 +1,116 @@
+		body {
+            width:1200px;
+            margin:0 auto;
+        }
+        
+        /**head*/
+        #head {width:1200px; height:400px;background:url(../images2/guagua_01.jpg) no-repeat;width:1200px; height:400px;}
+        #hleft {float:right;width:200px;padding-left:178px;padding-top:20px;}
+        #hright {float:right;padding-top:15px;padding-right:170px;}
+        #hright li { float:left;padding-left:4px;padding-right:4px;}
+        #hright li a { color:#72726A;padding:5px;}
+
+
+        /** menu */
+        #menu { height:38px;background:url(../images/banner.jpg) repeat-x;padding-left:140px;}
+        #menu li {float:left;width:93px;height:38px;text-align:center;background:url(../images/nav_line.gif) no-repeat right center;}
+        /* link visited h a */
+        #menu li a:link {height:38px; line-height:38px;font-size:14px;display:block;color:#FFFFFF;}
+        #menu li a:visited {height:38px; line-height:38px;font-size:14px;display:block;color:#FFFFFF;}
+        #menu li a:hover {background:url(../images/nav_hover.gif) no-repeat left;}
+
+
+        /** soso */
+        #soso {height:40px;background:url(../images/soso2.jpg) repeat-x;padding-left:170px;padding-right:170px;}
+        #soso p {font-size:14px; color:#666; height:40px; line-height:40px;}
+        #soso span {color:red;float:right;}
+
+
+        /** banner */
+        #banner {width:960px; height:200px;margin:auto;}
+		#banner  #pic1{width:240px; height:200px;margin:auto;float:right;}
+		#banner  #pic2{width:240px; height:200px;margin:auto;float:right;}
+		#banner  #pic3{width:240px; height:200px;margin:auto;float:right;}
+		#banner  #pic4{width:240px; height:200px;margin:auto;float:right;}
+
+
+        /** main */
+        #main {width:960px;height:265px;margin:auto;}
+        #mleft {width:700px; height:265px; float:left;}
+        #mright {width:250px; height:265px;float:right;}
+
+        #mrhead {height:35px; width:250px;background:pink;}
+        #mrcont {height:227px; width:248px;background:white;border-left:1px solid #D7D7D7;border-right:1px solid #D7D7D7;}
+        #mrfoot {height:3px; width:250px;background:url(../images/border-foot.gif) no-repeat left -17px;overflow:hidden;font-size:1px;}
+
+        #mrhead #left {background:url(../images/menu.gif) no-repeat left -70px;width:20px;height:35px;float:left;}
+        #mrhead #middle {background:url(../images/menu-line.gif) repeat-x left -70px;width:220px;height:35px;float:left;
+                        font-size:14px;color:#0070AF;font-weight:bold;line-height:35px;text-indent:5px;}
+        #mrhead #middle span {float:right;}
+        #mrhead #middle span a:link{color:#0080AF;font-size:12px;}
+        #mrhead #middle span a:visited {color:#0080AF;font-size:12px;}
+        #mrhead #right {background:url(../images/menu.gif) no-repeat right -70px;width:10px;height:35px;float:left;}
+        
+        #mlhead {width:700px; height:35px;  background:blue;}
+        #mlcont {width:698px; height:227px; border-left:1px solid #D7D7D7;border-right:1px solid #D7D7D7;}
+        #mlfoot {width:700px; height:3px; background:url(../images/border-foot.gif) no-repeat left -2px;overflow:hidden;font-size:1px;}
+
+        #mlhead #left {background:url(../images/menu.gif) no-repeat;width:20px;height:35px;float:left;}
+        #mlhead #middle {background:url(../images/menu-line.gif) repeat-x;width:660px;height:35px;float:left;
+                        font-size:14px;color:#0070AF;font-weight:bold;line-height:35px;text-indent:5px;
+                        padding-right:10px;}
+        #mlhead #middle span {float:right;}
+        #mlhead #middle span a:link{color:#0080AF;font-size:12px;}
+        #mlhead #middle span a:visited {color:#0080AF;font-size:12px;}
+        #mlhead #right {background:url(../images/menu.gif) no-repeat right top;width:10px;height:35px;float:left;}
+
+
+        /**  main左侧内容部分  */
+        #mlcont #cont1 {width:170px; height:217px; float:left;padding-left:10px;padding-top:10px;}
+        #mlcont #cont1 img {border:1px solid #D7D7D7;}
+        #mlcont #cont2 {width:260px; height:227px; float:left;}
+        #mlcont #cont2 h2 {color:#0070AF;font-size:14px;font-family:"microsoft yahei",simhei;height:40px;line-height:40px;
+                            font-weight:bold;}
+        #mlcont #cont2 li {height:28px; line-height:28px;border-bottom:1px dotted #666;}
+        #mlcont #cont2 a:link {color:#666;}
+        #mlcont #cont2 a:visited {color:#666;}
+        #mlcont #cont2 a:hover {color:#06F;}
+
+        #mlcont #cont2 span {float:right;}
+        #mlcont #cont3 {width:235px; height:227px; float:right;}
+        #mlcont #cont3 h2 {color:#0070AF;font-size:14px;font-family:"microsoft yahei",simhei;height:40px;line-height:40px;
+                            font-weight:bold;}
+        #mlcont #cont3 p {line-height:23px;padding-top:10px;padding-right:10px;color:#666;}
+        #mlcont #cont3 li {float:left;padding-left:8px;padding-top:10px;}
+
+
+        /** main右侧内容部分 */
+        #mrcont .cont {height:75px;}
+        #mrcont .left {float:left;padding:7px 10px;}
+        #mrcont .right {float:left;padding:7px;}
+        #mrcont .right li {height:20px; line-height:20px; color:#666;}
+        #mrcont .right li a:link {color:#00E;}
+        #mrcont .right li a:visited {color:#00E;}
+        #mrcont .right li a:hover {color:red;}
+
+
+        /** foot */
+        #foot {height:128px; width:955px; background:#B4D1E3;margin:auto;padding-left:8px;}
+        #movie {height:128px;background:url(../images/05.gif) repeat-x;text-align:center;}
+        #movie li {float:left;margin-top:20px;margin-right:4px;}
+
+
+        /** dibu */
+        #dibu {width:960px; height:156px;margin:auto;}
+        #dibu #cont1 li {float:left;}
+        #dibu #cont1 {text-align:center;margin-top:15px;}
+        #dibu #cont1 a:link {color:#666;}
+        #dibu #cont1 a:visited {color:#666;}
+
+        #dibu #cont2 {text-align:center;margin-top:15px;}
+
+        #dibu #cont3 {text-align:center;margin-top:15px;word-spacing:10px;}
+        #dibu #cont3 img{display:inline;}
+
+        /** 间距点缀 */
+        #soso, #main, #foot {margin-top:3px;}

@@ -1,0 +1,28 @@
+.weather{
+    width: 300px;
+    border: 5px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.weather-loc{
+    font-size: 15px;
+}
+
+
+.weather-temp::before{
+    content: 'Currently ';
+}
+
+.weather-humidity{
+    float: left;
+}
+.weather-humidity::before{
+    content: 'Humidity: ';
+}
+.weather-temp{
+    float:right;
+}
+.weather-humidity::after{
+    content: '%';
+}

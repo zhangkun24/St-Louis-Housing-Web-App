@@ -1,0 +1,39 @@
+h1
+{
+color:blue;text-align:right;text-decoration:overline;
+}
+h2{color:red;}
+h3{color:black;}
+h3.main{color:yellow;}
+body{background-image:url('god.jpg');background-repeat:no-repeat;}/*背景图片*/
+
+a:link{color:#ff0000;}                        /*链接*/
+a:visited{color:#00ff00;}
+a:hover{color:#00ff00;}
+a:active{color:#ff00ff;}
+
+ul.a{list-style-type:circle;}                  /*列表*/
+ol.a{list-style-type:Upper-roman;}
+
+table{width:100%;color:yellow;}                 /*表格*/
+th{height:50px;text-align:right;padding:15px;}
+td{height:25px;background-color:green;color:white}
+
+p.one{margin-top:100px;padding-top:50;padding-bottom:50;outline-style:dotted;outline-color:#305820;border-style:solid;border-width:5px;border-color:green;} /*边框*/
+
+p{color:blue;}                                  /*嵌套*/
+.marked{background-color:red;}
+.marked p{color:green;}
+
+h2{position:relative;left:-20px;}                /*定位*/
+h4{position:absolute:left:100px;right:150px;}
+
+img{float:right;}                                 /*浮动*/
+
+h3{positon:absolute;right:0px;width:300px;}      /*水平对齐*/
+
+p.one:first-letter{color:red;font-size:xx-large;} /*伪类*/
+
+ul{list-style-type:none;margin:0;padding0;}
+a{dispaly:block;width:60px;background-color:#dddddd;} /*导航栏=链接列表*/
+

@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+</script>
+<meta name="keywords" content="Auction Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<!--Google Fonts-->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script src="http://ajax.useso.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+</head>
+<body>
+<!-- //end-smoth-scrolling -->
+<!--header start here-->
+<div class="header">
+	<div class="container">
+		<div class="header-main">
+			<div class="logo">
+				<a href="index.html"> <img src="images/logo.jpg" alt="" title=""> </a>
+			</div>
+			<div class="head-right">
+			  <div class="top-nav">
+					<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<ul class="res">
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="http://www.zillow.com/buy/">Zillow</a></li>
+					<li><a href="www.homefinder.com/">Homefinder</a></li>
+					<li><a href="https://www.redfin.com/">Redfin</a></li>
+				<div class="clearfix"> </div>
+				</ul>
+
+			 </div>
+		    
+			<div class="social">
+				<ul >
+					<li><a class="fa" href="#"> </a></li>
+					<li><a class="tw" href="#"> </a></li>
+					<li><a class="p" href="#"> </a></li>
+				</ul>
+				</div>
+				
+			<div class="search-box">
+				<div id="sb-search" class="sb-search">
+					<form>
+						<input class="sb-search-input" placeholder="Search" type="search" name="search" id="search">
+						<input class="sb-search-submit" type="submit" value="">
+						<span class="sb-icon-search"> </span>
+					</form>
+			   </div>
+			</div>
+			<div class="clearfix"> </div>
+			   <!-- search-scripts -->
+					<script src="js/classie.js"></script>
+					<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+			  <!-- //search-scripts -->
+		</div>
+		
+		<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header end here-->
+<!--banner strip start here-->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: false,
+        nav:true,
+      });
+    });
+  </script>
+
+<div class="banner">
+	<div class="container">
+		<div class="banner-main">
+			<ul class="rslides" id="slider">
+	        <li>
+		<div class="form-horizontal" role="form" style="margin-right:auto">
+        <h2 style="color:white;">Find Your Home</h2>
+		<div class="form-group">
+			<form action="search.php" method="get">
+				<label class="control-label col-sm-2" for="select"></label>
+				<div class="col-sm-offset-2 col-sm-4">
+				<select id="select" name="option" class="form-control">
+                    <option  value="zipcode">Zip Code</option>
+                    <option value="address" selected>Address</option>
+                </select>
+				</div>
+				</div>
+				<div class="form-group">
+                 <label for="search" class="control-label col-sm-2"></label>
+                <div class="col-sm-offset-2 col-sm-4">
+				<input id="search" type="text" name="search" class="form-control">
+				</div>
+				</div>
+				<div class="form-group">
+				<div class="col-sm-offset-1 col-sm-10">
+				<button class="btn btn-info" type="submit">Search</button>
+				</div></div>
+			</form>
+		</div>
+	        </li>
+			<!--
+	       <li>
+	  			<h3>Lorem Ipsum simply dummy</h3>
+				<p>But this denouncing pleasure and praising</p>
+				<div class="bann-btn">
+					  <a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+               </div>
+	        </li>
+	        <li>
+	        	<h3>Nemo ipsam voluptatem</h3>
+				<p>We are Professional web developer Company</p>
+				<div class="bann-btn">
+					  <a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+               </div>
+	        </li>-->
+	      </ul>
+		</div>
+	</div>
+</div>
+<div class="banner-strip">
+	<div class="container">
+		<h3>We Work On Advertising For Internal And External Communications</h3>
+		<div class="bann-strip-btn">
+			<a href="#" class="hvr-shutter-out-horizontal">Top</a>
+	    </div>
+	   <div class="clearfix"> </div>
+	</div>
+</div>
+<!--banner strip end here--> 
+
+<!--services start here-->
+<div class="services">
+	<div class="container">
+		<div class="services-main">
+			<div class="services-top">
+				<h3>Great Neighborhoods in St.Louis</h3>
+				<p>Great design is about more than style,it,s about enviroment</p>
+			</div>
+			<div class="services-bottom">
+				<div class="row">
+					  <div class="col-sm-6 col-md-4 ser">
+					<div class="thumbnail">
+					  <a href="http://www.cityofladue-mo.gov/"><img src="images/g2.jpg" alt=""></a>
+					  <div class="caption">
+					    <a href="http://www.cityofladue-mo.gov/"><h3>Ladue</h3></a>
+					    <p>SFor the past century, Ladue has drawn Saint Louis’ elite. They built homes there of elegance and character of brick and stone on lots of an acre or several along private, tree-shaded lanes. </p>
+					  </div>
+					</div>
+					  </div>
+					   <div class="col-sm-6 col-md-4 ser">
+					<div class="thumbnail">
+					  <a href="http://www.claytonmo.gov/"><img src="images/g3.jpg" alt=""></a>
+					  <div class="caption">
+					   <a href="http://www.claytonmo.gov/"> <h3>Clayton</h3></a>
+					    <p>The county seat of St. Louis County, Clayton in the 1960s became a rival to downtown St. Louis for corporate office space, and today boasts a downtown of high-rises for business headquarters, lawyers and other professionals, as well as retail boutiques.</p>
+					  </div>
+					</div>
+					  </div>
+					   <div class="col-sm-6 col-md-4 ser">
+					<div class="thumbnail">
+					  <a href="http://www.webstergroves.org/"><img src="images/g4.jpg" alt=""></a>
+					  <div class="caption">
+					    <a href="http://www.webstergroves.org/"><h3>Webster Groves</h3></a>
+					    <p>Webster Groves got its start as a railroad suburb of Saint Louis in the 19th century. As a result, Webster’s older residences are unlike most in the St. Louis area, featuring frame Victorian homes with big, wrap-around porches on big lots with many trees and mature landscaping.</p>
+					  </div>
+					</div>
+					  </div>
+				   <div class="clearfix"> </div>
+				</div>
+
+				   <div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="copy-main">
+			<div class="copy-left">
+				<p style="color:red">Copyright &copy; 2016 Database Management Final Project  </p>
+			</div>
+			<div class="copy-right"> 
+				<ul>
+					<li style="font-weight:bold;font-family:imes New Roman,Times,serif;">Kun Zhang</li>/
+					<li style="font-weight:bold;font-family:imes New Roman,Times,serif;">Wei Wang</li>/
+					<li style="font-weight:bold;font-family:imes New Roman,Times,serif;">Frank Sun</li>/
+					<li style="font-weight:bold;font-family:imes New Roman,Times,serif;">Tianpei Li</li>
+				</ul>
+			</div>
+		</div>
+</body>
+</html>
